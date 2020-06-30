@@ -1,0 +1,25 @@
+.header {
+  background-color: #fff;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.header-inner {
+  padding: 15px 0;
+}
+
+.search-button {
+  background-color: #74cfae;
+  color: #fff;
+  float: right;
+  font-size: 12px;
+  padding: 14px 12px;
+  width: 70px;
+}
+
+.fa-bolt {
+  margin: auto;
+}
