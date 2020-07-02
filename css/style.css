@@ -77,7 +77,7 @@
 
 .desc__text {
   font-size: 20px;
-  word-break: break-all;
+  word-break: keep-all;
 }
 
 .work {
