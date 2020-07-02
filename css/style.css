@@ -1,3 +1,9 @@
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 .header {
   background-color: #fff;
 }
@@ -9,6 +15,7 @@
 
 .header-inner {
   padding: 15px 0;
+  vertical-align: middle;
 }
 
 .search-button {
@@ -17,9 +24,72 @@
   float: right;
   font-size: 12px;
   padding: 14px 12px;
-  width: 70px;
+  width: 50px;
 }
 
-.fa-bolt {
-  margin: auto;
+.main {
+  background-color: #f2f2f2;
+}
+
+.main-inner {
+  padding: 250px 0;
+  text-align: center;
+}
+
+.theme {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subtheme {
+  color: #c0c0c0;
+  font-size: 30px;
+}
+
+.desc {
+  background-color: #74cfae;
+}
+
+.desc__contents {
+  padding-top: 50px;
+}
+
+.iphone-picture {
+  float: left;
+}
+
+.desc__text__group {
+  margin-left: 400px;
+  width: 700px;
+}
+
+.title,.desc__text {
+  color: #fff;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.desc__text {
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.work {
+  background-color: #f2f2f2;
+}
+
+.work-inner {
+  padding: 60px 70px 0 0;
+}
+
+.work-title {
+  font-size: 24px;
+  padding-bottom: 40px;
+  text-align: center;
 }
