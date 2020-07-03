@@ -10,6 +10,7 @@
 
 .inner {
   margin: 0 auto;
+  text-align: center;
   width: 1100px;
 }
 
@@ -18,11 +19,19 @@
   vertical-align: middle;
 }
 
-.search-button {
+.fa-bolt {
+  float: left;
+}
+
+.button {
   background-color: #74cfae;
   color: #fff;
-  float: right;
+  display: inline-block;
   font-size: 12px;
+}
+
+.search.button {
+  float: right;
   padding: 14px 12px;
   width: 50px;
 }
@@ -33,7 +42,7 @@
 
 .main-inner {
   padding: 250px 0;
-  text-align: center;
+ 
 }
 
 .theme {
@@ -58,10 +67,11 @@
 
 .iphone-picture {
   float: left;
+  margin-right: 100px;
 }
 
-.desc__text__group {
-  margin-left: 400px;
+.desc__contents__text {
+  display: inline-block;
   width: 700px;
 }
 
@@ -85,11 +95,46 @@
 }
 
 .work-inner {
-  padding: 60px 70px 0 0;
+  padding: 60px 0 70px 0;
 }
 
 .work-title {
   font-size: 24px;
   padding-bottom: 40px;
-  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin: 0 80px 100px 0;
+  width: calc(33.33333333% - 100px);
+}
+
+.item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.item:nth-child(n + 4) {
+  margin-bottom: 0;
+}
+
+.work__text__group {
+  padding-top: 90px;
+  vertical-align: middle;
+}
+
+.work__text {
+  display: inline-block;
+  margin-right: 90px;
+  width: 50%;
+}
+
+.mail.button {
+  padding: 14px 20px;
+  width: 60px;
 }
