@@ -124,17 +124,19 @@
 }
 
 .work__text__group {
+  margin: 0 auto;
   padding-top: 90px;
-  vertical-align: middle;
+  width: 740px;
 }
 
 .work__text {
-  display: inline-block;
+  float: left;
   margin-right: 90px;
-  width: 50%;
+  width: 550px;
 }
 
 .mail.button {
+  float: left;
   padding: 14px 20px;
   width: 60px;
 }
