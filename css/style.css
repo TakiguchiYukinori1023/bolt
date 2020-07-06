@@ -140,3 +140,33 @@
   padding: 14px 20px;
   width: 60px;
 }
+
+.skill {
+  background-color: #4e4e4e;
+}
+
+.skill-inner {
+  padding: 70px 0 100px 0;  
+}
+
+.skill-title {
+  color: #fff;
+}
+
+.circle {
+  border: 10px solid;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  margin-right: 180px;
+  margin-top: 70px;
+  width: 50px;
+}
+
+.circle:last-child {
+  margin-right: 0;
+}
+
+.ja {
+  border-right-color: #74cfae;
+}
