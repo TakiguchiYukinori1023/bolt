@@ -1,3 +1,7 @@
+body {
+  color: #333;
+}
+
 .clearfix:after {
   display: block;
   content: "";
@@ -28,6 +32,7 @@
   color: #fff;
   display: inline-block;
   font-size: 12px;
+  transition: color 0.3s;
 }
 
 .search.button {
@@ -130,6 +135,7 @@
 }
 
 .work__text {
+  color: #000;
   float: left;
   margin-right: 90px;
   width: 550px;
@@ -149,24 +155,73 @@
   padding: 70px 0 100px 0;  
 }
 
-.skill-title {
+.skill-title,.circle__text {
   color: #fff;
 }
 
 .circle {
-  border: 10px solid;
-  border-radius: 50%;
   display: inline-block;
-  height: 50px;
-  margin-right: 180px;
-  margin-top: 70px;
-  width: 50px;
+  margin: 50px 0 0 180px;
 }
 
-.circle:last-child {
-  margin-right: 0;
+.circle:first-child {
+  margin-left: 0;
 }
 
-.ja {
-  border-right-color: #74cfae;
+.circle__text {
+  margin-top: 10px;
+}
+
+.sns {
+  background-color: #f2f2f2;
+}
+
+.sns-inner {
+  padding: 200px 0;
+}
+
+.sns-list {
+  display: inline-block;
+  padding: 30px 0;
+  transition: 0.3s;
+  width: 185px;
+}
+
+.sns-icon {
+  color: #74cfae;
+}
+
+.footer {
+  background-color: #74cfae;
+}
+
+.footer-inner {
+  padding: 20px 0 25px 0;
+}
+
+.footer__text {
+  color: #fff;
+  text-align: right;
+}
+
+.button:hover {
+  color: #333;
+}
+
+.work-picture {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.work-picture:hover {
+  opacity: 1;
+}
+
+.sns-list:hover {
+  background-color: #fff;
+}
+
+.button,.work-picture,
+.sns-list {
+  cursor: pointer;
 }
