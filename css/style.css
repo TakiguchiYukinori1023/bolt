@@ -27,6 +27,7 @@ h2 {
   top: 0px;
   left: 0px;
   width: 100%;
+  z-index: 100;
 }
 
 .inner {
@@ -47,6 +48,7 @@ h2 {
   color: #fff;
   display: inline-block;
   font-size: 12px;
+  text-align: center;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -55,6 +57,10 @@ h2 {
   float: right;
   padding: 14px 12px;
   width: 50px;
+}
+
+.main {
+  padding-top: 78px;
 }
 
 .theme {
@@ -69,13 +75,13 @@ h2 {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  margin-bottom: 20px;
   text-align: center;
 }
 
 .subtheme__text {
   color: #c0c0c0;
   font-size: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -132,7 +138,7 @@ h2 {
 }
 
 .item {
-  margin: 0 80px 100px 0;
+  margin: 0 100px 80px 0;
 }
 
 .item:nth-child(3n) {
@@ -152,13 +158,13 @@ h2 {
 .work__text {
   color: #000;
   float: left;
-  margin-right: 90px;
   width: 550px;
 }
 
 .mail.button {
   float: left;
   padding: 14px 20px;
+  margin-left: 90px;
   width: 60px;
 }
 
@@ -177,6 +183,7 @@ h2 {
 
 .circle__group {
   margin-top: 50px;
+  text-align: center;
 }
 
 .circle {
