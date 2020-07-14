@@ -1,14 +1,14 @@
 body {
   color: #333;
-  font-family: 'Raleway';
+  font-family: 'Lato';
 }
 
 img {
   vertical-align: bottom;
 }
 
-.font-Lato {
-  font-family: 'Lato';
+.font-Raleway {
+  font-family: 'Raleway';
 }
 
 .clearfix:after {
@@ -95,7 +95,7 @@ img {
 
 .iphone-picture {
   float: left;
-  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .desc__contents__text {
@@ -259,4 +259,70 @@ img {
 .work-picture,
 .sns-list {
   cursor: pointer;
+}
+
+.humbergermenu {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  float: right;
+  padding: 10px;
+}
+
+.humbergermenu__line {
+  background-color: #ddd;
+  border-radius: 2px;
+  height: 2px;
+  width: 24px;
+  position: relative;
+}
+
+.humbergermenu__line:before,
+.humbergermenu__line:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.humbergermenu__line:before {
+  top: 5px;
+}
+
+.humbergermenu__line:after {
+  bottom: 5px;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .humbergermenu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .humbergermenu {
+    display: none;
+  }
+
+ .iphone-picture,
+ .desc__contents__text {
+   float: none;
+ }
+}
+
+@media screen and (max-width: 767px) {
+  .search {
+    display: none;
+  }
+
+  .iphone-picture,
+  .desc__contents__text {
+    float: none;
+  }
+
+  .desc__contents__text {
+    margin-left: 0;
+  }
 }
