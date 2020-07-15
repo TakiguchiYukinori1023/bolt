@@ -282,12 +282,17 @@ img {
   margin-top: 0;
 }
 
+@media screen and (min-width:1200px) {
+  .humbergermenu {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .inner,
   .desc__contents__text,
   .work__text__group,
-  .work__text,
-  .sns-icon {
+  .work__text {
     width: 97%;
   }
 
@@ -360,6 +365,16 @@ img {
 .circle-list:first-child {
   margin-top: 0;
 }
+
+.sns {
+  font-size: 0;
+}
+
+.sns-list {
+  font-size: 15px;
+  width: 25%;
+}
+
 }
 
 @media screen and (max-width: 767px) {
