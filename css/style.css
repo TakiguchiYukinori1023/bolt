@@ -2,11 +2,20 @@
 
 body {
   color: #333;
-  font-family: 'Lato';
+  font-family: "Lato","Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
 }
 
 img {
   vertical-align: bottom;
+}
+
+a {
+  display: inline-block;
 }
 
 .font-Raleway {
@@ -362,6 +371,7 @@ img {
   border-radius: 4px;
   float: right;
   padding: 10px;
+  cursor: pointer;
 }
   
 .humbergermenu__line {
@@ -395,5 +405,6 @@ img {
 .sns-list {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 }
